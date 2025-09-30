@@ -18,6 +18,8 @@ The approach involves a structured workflow:
 - `scripts/`: Contains Python scripts for reproducible tasks like data generation and cleaning.
 - `reports/figures/`: Contains visualizations generated during analysis.
 
+![screenshot](notebooks/folder.png)
+
 ## Setup
 
 1.  **Clone the repository**
