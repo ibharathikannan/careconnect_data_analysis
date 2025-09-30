@@ -31,8 +31,6 @@ data/processed/*
 .ipynb_checkpoints/
 
 # --- Reports ---
-# Ignore generated figures and plots
-reports/figures/*
 # Keep the directory in git. You'll need to create an empty .gitkeep file.
 !reports/figures/.gitkeep
 
