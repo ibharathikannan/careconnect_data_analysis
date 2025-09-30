@@ -26,11 +26,11 @@ This project aims to clean, analyze, and derive insights from a simulated datase
 2.  **Create a virtual environment and activate it**
 
     ```bash
-    conda create -n visits python=3.7.10 -y
+    python -m venv visits
     ```
 
     ```bash
-    conda activate visits
+    source visits/bin/activate
     ```
 
 3.  **Install dependencies**
