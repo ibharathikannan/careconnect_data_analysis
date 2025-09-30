@@ -38,6 +38,7 @@ The exploratory data analysis on the cleaned dataset yielded the following insig
 - A number of outliers were identified, including extremely short visits (1-5 minutes) and very long visits (over 5 hours). These are likely data entry errors and were flagged for further investigation.
 
 _(Reference: `reports/figures/visit_duration_distribution.png`)_
+![screenshot](/reports/figures/visit_duration_distribution.png)
 
 ### 4.2. Service Type Popularity
 
@@ -45,11 +46,15 @@ _(Reference: `reports/figures/visit_duration_distribution.png`)_
 - **IV Therapy** was the least common service, suggesting it is a specialized or less frequent requirement.
 
 _(Reference: `reports/figures/service_type_distribution.png`)_
+![screenshot](/reports/figures/service_type_visit_duration.png)
 
 ### 4.3. Geographical Visit Distribution
 
 - Visits were not evenly distributed across locations. The **North** and **East** regions showed a higher volume of visits compared to the South and West.
 - This finding suggests a higher demand for services or a larger patient population in these areas.This depends on the data generated.
+
+_(Reference: `reports/figures/location_visit_duration.png`)_
+![screenshot](/reports/figures/location_visit_duration.png)
 
 ## 5. Recommendations
 
