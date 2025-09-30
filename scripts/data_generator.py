@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import os
 
 # --- Configuration ---
-NUM_RECORDS = 200
+NUM_RECORDS = 2000
 OUTPUT_CSV_PATH = 'data/raw/visits.csv'
 
 # --- Initialize Faker ---
