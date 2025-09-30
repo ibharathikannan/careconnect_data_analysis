@@ -17,8 +17,9 @@ The approach involves a structured workflow:
 - `notebooks/`: Contains Jupyter notebooks for exploratory data analysis (EDA).
 - `scripts/`: Contains Python scripts for reproducible tasks like data generation and cleaning.
 - `reports/figures/`: Contains visualizations generated during analysis.
+- `reports/summary_report.md`: Contains the summary report and key findings.
 
-![screenshot](notebooks/folder.png)
+![screenshot](/project_structure.png)
 
 ## Setup
 
@@ -70,9 +71,16 @@ The approach involves a structured workflow:
 
 2.  **Perform Data Cleaning and EDA**
     Launch JupyterLab and open the notebooks in the `notebooks/` directory to start the analysis.
+
     ```bash
     jupyter lab
     ```
+
+3.  **Run the notebooks in the following order**
+
+    01_data_cleaning_and_eda.ipynb
+
+    02_data_analysis_and_visualization.ipynb
 
 ## Key Findings and Insights
 
